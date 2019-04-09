@@ -16,16 +16,6 @@
     </dependency>
   </dependencies>
 </project>
-<distributionManagement>
-    <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://192.168.3.138:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-    <repository>
-      <id>nexus-releases</id>
-      <url>http://192.168.3.138:8081/repository/maven-releases/</url>
-    </repository>
-</distributionManagement>
   <build>
     <plugins>
       <plugin>
@@ -46,3 +36,13 @@
     </plugins>
   </build>
 </project>
+<distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://192.168.3.138:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://192.168.3.138:8081/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
